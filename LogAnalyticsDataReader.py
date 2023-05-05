@@ -1,4 +1,6 @@
 // Reading Data From Azure Log Analytics
+// mustafa-hammer/LogAnalyticsDataReader.py
+// https://medium.com/slalom-build/reading-and-writing-to-azure-log-analytics-c78461056862
 def get_token(tenant, sp_id, sp_secret):
     """Obtain authentication token using a Service Principal"""
     login_url = "https://login.microsoftonline.com/"+tenant+"/oauth2/token"
